@@ -1,3 +1,0 @@
-if (self.CavalryLogger) { CavalryLogger.start_js(["Ws0XU"]); }
-
-__d("FBStoriesAudienceModeMutationCallMutationWebGraphQLMutation",["WebGraphQLMutationBase"],(function a(b,c,d,e,f,g){"use strict";__p&&__p();f.exports=function(){__p&&__p();var h,i;h=babelHelpers.inherits(j,c("WebGraphQLMutationBase"));i=h&&h.prototype;j.__getDocID=function(){"use strict";return"1883080631763254"};j.getQueryID=function(){"use strict";return"196508534442477"};function j(){"use strict";h.apply(this,arguments)}return j}()}),null);

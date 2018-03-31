@@ -1,3 +1,0 @@
-if (self.CavalryLogger) { CavalryLogger.start_js(["yQIJi"]); }
-
-__d("AdsLWIAutomatedAdsRecommendationLayout",["fbt","AdsLWISingleColumnLayout","JSResource"],(function a(b,c,d,e,f,g,h){"use strict";__p&&__p();var i,j;i=babelHelpers.inherits(k,c("AdsLWISingleColumnLayout"));j=i&&i.prototype;k.prototype.getMainAreaComponents=function(){return[{component:c("JSResource")("AdsLWILegacyAARecommendationStepContainer.react").__setRef("AdsLWIAutomatedAdsRecommendationLayout")}]};k.prototype.getTitle=function(){return h._("Create an Ongoing Promotion")};k.prototype.getStepName=function(){return h._("Recommendation")};function k(){i.apply(this,arguments)}f.exports=new k()}),null);

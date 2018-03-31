@@ -1,3 +1,0 @@
-if (self.CavalryLogger) { CavalryLogger.start_js(["wVKOC"]); }
-
-__d("AdsLWIDialogStateCreateRecommendationActionHandler",["AdsLWICreateRecommendationsDataAction","AdsLWIDialogStateCreationNextStepActionHandlerBase"],(function a(b,c,d,e,f,g){"use strict";var h=babelHelpers["extends"]({},c("AdsLWIDialogStateCreationNextStepActionHandlerBase"),{type:c("AdsLWICreateRecommendationsDataAction").actionType});f.exports=h}),null);

@@ -1,3 +1,0 @@
-if (self.CavalryLogger) { CavalryLogger.start_js(["OW6Vr"]); }
-
-__d("AdsLWIDialogStateCreationNextStepActionHandlerBase",["AdsLWIStepperManager","FBLogger","nullthrows"],(function a(b,c,d,e,f,g){"use strict";var h={mutate:function i(j,k){var l=k.dialogState,m=k.history,n=l.phaseType,o=l.step,p=c("AdsLWIStepperManager").getPhase(c("nullthrows")(n));if(o<p.getNumSteps()-1)return k.withMutations(function(q){q.set("dialogState",l.set("step",o+1)).set("history",m.push(l))});else c("FBLogger")("boosted_component").mustfix("Attempted to go to next step when there is no next step");return k}};f.exports=h}),null);

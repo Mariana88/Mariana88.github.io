@@ -1,3 +1,0 @@
-if (self.CavalryLogger) { CavalryLogger.start_js(["B2Qn3"]); }
-
-__d("messengerIterateEmoji",["MessengerSupportedEmoji","ifRequired"],(function a(b,c,d,e,f,g){"use strict";__p&&__p();function h(i,j,k,l){__p&&__p();var m=String(i);while(m){var n=c("ifRequired")("MessengerSupportedEmojiUtils",function(r){return r.getEmojiMatchObj(m)},function(){return c("MessengerSupportedEmoji").getEmojiMatchObj(m)});if(n){var o=n.offset+n.length,p=m.substr(0,n.is_supported?n.offset:o);k(p);if(n.is_supported)j(n.emoji_str,n.emoji_key,l);var q=m.substr(o);m=q}else break}k(m)}f.exports=h}),null);

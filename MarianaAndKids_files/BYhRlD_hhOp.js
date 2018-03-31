@@ -1,3 +1,0 @@
-if (self.CavalryLogger) { CavalryLogger.start_js(["y4TP7"]); }
-
-__d("AdsImageSpecPlacementPlatformUtils",["AdsPageTypes","AdsPlacementPlatforms","AdsPlacementPlatformUtils"],(function a(b,c,d,e,f,g){"use strict";var h={getImageSpecPlacementPlatform:function i(j){if(c("AdsPlacementPlatformUtils").hasAnyFacebookPlacement([j.placement])||j.placement===c("AdsPageTypes").MOBILE_EXTERNAL)return c("AdsPlacementPlatforms").FACEBOOK;return j.placement===c("AdsPageTypes").INSTAGRAM_STREAM?c("AdsPlacementPlatforms").INSTAGRAM:null}};f.exports=h}),null);

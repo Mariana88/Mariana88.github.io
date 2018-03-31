@@ -1,3 +1,0 @@
-if (self.CavalryLogger) { CavalryLogger.start_js(["pCFSb"]); }
-
-__d("AdsEditingCampaignDataReducerUtils",["AdsDataAtom","AdsEditingCampaignContext","AdsSelectorUtils","AdsUEditorHostIDs","adsCreateStoreSelector","adsMemoizeWithArgs"],(function a(b,c,d,e,f,g){"use strict";__p&&__p();var h=c("adsMemoizeWithArgs")(function(j){return new(c("AdsEditingCampaignContext"))(c("adsCreateStoreSelector")([],function(){return j},f.id))},function(j){return j.join(",")},f.id+".getContextWithActionIDs"),i={callReduce:function j(k,l,m,n){if(m.hostID===c("AdsUEditorHostIDs").EDITING){c("AdsDataAtom").waitFor(c("AdsSelectorUtils").getStoreDispatchTokens([n]));l=k(l,m,n(h(m.campaignIDs||[])))}return l}};f.exports=i}),null);

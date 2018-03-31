@@ -1,3 +1,0 @@
-if (self.CavalryLogger) { CavalryLogger.start_js(["2tPv8"]); }
-
-__d("AdsUEditorCampaignSelectWebsitePromotedObjectTypeDataReducerPlugin",["AdsAPICampaignPaths","AdsMutators","AdsUEditorCampaignDataReducerUtils","AdsUEditorCampaignSelectWebsitePromotedObjectTypeDataActionPlugin"],(function a(b,c,d,e,f,g){"use strict";var h={reduce:c("AdsUEditorCampaignDataReducerUtils").createReducer({},function(i,j,k){return c("AdsMutators").mutateEach(i,j.campaignIDs,function(l,m){return l.setIn(c("AdsAPICampaignPaths").DESTINATION_TYPE,null)})},c("AdsUEditorCampaignSelectWebsitePromotedObjectTypeDataActionPlugin").actionType)};f.exports=h}),null);
