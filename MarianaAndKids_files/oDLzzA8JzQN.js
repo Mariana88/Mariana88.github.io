@@ -1,0 +1,3 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["DC9qN"]); }
+
+__d("AdsLWIAutomatedAdsPackageLandingLayout",["fbt","AdsLWISingleColumnLayout","JSResource"],(function a(b,c,d,e,f,g,h){"use strict";__p&&__p();var i,j;i=babelHelpers.inherits(k,c("AdsLWISingleColumnLayout"));j=i&&i.prototype;k.prototype.getMainAreaComponents=function(){return[{component:c("JSResource")("AdsLWIPackageLandingStep.react").__setRef("AdsLWIAutomatedAdsPackageLandingLayout")}]};k.prototype.getTitle=function(){return h._("Create an Ongoing Promotion")};k.prototype.getStepName=function(){return h._("Set Goal")};k.prototype.getFooterConfig=function(){return{primaryButtonOverride:{label:h._("Get Started")},optOutOfStepper:true}};function k(){i.apply(this,arguments)}f.exports=new k()}),null);

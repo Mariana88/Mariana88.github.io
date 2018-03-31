@@ -1,0 +1,3 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["O5Kl+"]); }
+
+__d("FantaProfilePresence.bs",["cx","React","SplitImage.bs","ReasonReact.bs"],(function a(b,c,d,e,f,g,h){"use strict";__p&&__p();var i=c("ReasonReact.bs").statelessComponent("FantaProfilePresence");function j(l,m,n,o){var p=i.slice();p[9]=function(){return c("React").createElement("div",{className:"_ro7"},c("ReasonReact.bs").element(0,0,c("SplitImage.bs").make(m,l,["_1gyw"],[])),n!==0?c("React").createElement("div",{className:"_1gyx"}):null)};return p}var k=c("ReasonReact.bs").wrapReasonForJs(i,function(l){return j(l.images,l.imageSize,+l.isActive,[])});g.component=i;g.make=j;g.jsComponent=k}),null);

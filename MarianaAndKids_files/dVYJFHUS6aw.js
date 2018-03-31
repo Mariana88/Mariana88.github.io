@@ -1,0 +1,3 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["4Q357"]); }
+
+__d("AdsPlacementAssetPluginUtils",["AdsPlacementPlugins"],(function a(b,c,d,e,f,g){"use strict";__p&&__p();function h(j){return c("AdsPlacementPlugins").getAllPlatforms().filter(function(k){var l=k.groups;return l.some(function(m){var n=m.key;return n===j})}).map(function(k){var l=k.key;return l}).first()}function i(j){return c("AdsPlacementPlugins").getAllGroups().filter(function(k){var l=k.key;return l===j}).flatMap(function(k){var l=k.positions;return l}).map(function(k){var l=k.apiPosition;return l}).filter(function(k){return!!k})}f.exports={getPlatformKeyFromGroupKey:h,getPositionForPlacementGroup:i}}),null);

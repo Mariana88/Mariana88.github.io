@@ -9,7 +9,7 @@
     <p>?xml version="1.0"? &gt <br>
         &lt rdf:RDF xmlns="http://www.myontologiesaddress/Mariana_Casella_dos_Santos.Portfolio.owl#"<br>
         <&lt owl:Ontology rdf:about="http://www.myontologiesaddress/Mariana_Casella_dos_Santos.Portfolio.owl"&gt<br>
-        &lt dc:title xml:lang="en"><h1>Portfolio Mariana Casella dos Santos</h1> &lt /dc:title &gt<br>
+        &lt dc:title xml:lang="en"><h1>Mariana Casella dos Santos Portfolio</h1> &lt /dc:title &gt<br>
         &lt terms:contributor>Mariana Casella dos Santos &lt /terms:contributor &gt<br>
         &lt /owl:Ontology &gt<br>
         <br>
@@ -17,7 +17,13 @@
             &lt rdfs:subClassOf rdf:resource="<strong class="portfolio-items">Ontologist</strong>"/ &gt
             &lt rdfs:subClassOf rdf:resource="<strong class="portfolio-items">Linked Data Specialist</strong>"/ &gt
             &lt rdfs:subClassOf rdf:resource=""<strong class="portfolio-items">Full-Stack Web Development Trainee</strong>"/ &gt
-            &lt rdfs:subClassOf rdf:resource="<strong class="anecdotal"> Loving Mother of 2</strong>"/ &gt
+            &lt owl:Restriction &gt
+            &lt owl:onProperty rdf:resource="<strong class="relationships">author-of</strong>"/ &gt
+            &lt owl:someValuesFrom rdf:resource="<strong class="portfolio-parent-items">Projects</strong>"/ &gt
+        &lt /owl:Restriction &gt
+            &lt rdfs:subClassOf rdf:resource="<strong class="anecdotal"> <a>
+                <img src="MarianaAndKids.jpg" alt="Loving Mother of 2">
+                </a></strong>"/ &gt
             &lt owl:Restriction &gt
                 &lt owl:onProperty rdf:resource="<strong class="relationships">born-in</strong>"/ &gt
                 &lt owl:someValuesFrom rdf:resource="<strong class="anecdotal">Sao Paulo - Brazil</strong>"/ &gt
@@ -27,9 +33,13 @@
                 &lt owl:someValuesFrom rdf:resource="<strong class="anecdotal">Ghent - Belgium</strong>"/ &gt
             &lt /owl:Restriction &gt
             &lt owl:Restriction &gt
-                &lt owl:onProperty rdf:resource="<strong class="relationships">author-of</strong>"/ &gt
-                &lt owl:someValuesFrom rdf:resource="<strong class="portfolio-parent-items">Projects</strong>"/ &gt
-            &lt /owl:Restriction &gt
+            &lt owl:onProperty rdf:resource="<strong class="relationships">has-skills</strong>"/ &gt
+            &lt owl:someValuesFrom rdf:resource="<strong class="portfolio-parent-items">Technology</strong>"/ &gt
+        &lt /owl:Restriction &gt
+            &lt owl:Restriction &gt
+            &lt owl:onProperty rdf:resource="<strong class="relationships">author-of</strong>"/ &gt
+            &lt owl:someValuesFrom rdf:resource="<strong class="portfolio-parent-items">Ontologies</strong>"/ &gt
+        &lt /owl:Restriction &gt
             &lt owl:Restriction &gt
                 &lt owl:onProperty rdf:resource="<strong class="relationships">author-of</strong>"/ &gt
                 &lt owl:someValuesFrom rdf:resource="<strong class="portfolio-parent-items">Publications</strong>"/ &gt
@@ -40,15 +50,11 @@
             &lt /owl:Restriction &gt
             &lt owl:Restriction &gt
                 &lt owl:onProperty rdf:resource="<strong class="relationships">has-belief</strong>"/ &gt
-                &lt owl:someValuesFrom rdf:resource="<strong class="motivation">Semantic Technology can improve access to Information in a revolutionary way.</strong>"/ &gt
+                &lt owl:someValuesFrom rdf:resource=<br>"<strong class="motivation">Semantic Technology can improve access to Information in a revolutionary way.</strong>"/ &gt
             &lt /owl:Restriction &gt
             &lt owl:Restriction &gt
                 &lt owl:onProperty rdf:resource="<strong class="relationships">has-belief</strong>"/ &gt
-                &lt owl:someValuesFrom rdf:resource="<strong class="motivation">Access to important information can make the world a better place!</strong>"/ &gt
-            &lt /owl:Restriction &gt
-            &lt owl:Restriction &gt
-                &lt owl:onProperty rdf:resource="<strong class="relationships">has-skills</strong>"/ &gt
-                &lt owl:someValuesFrom rdf:resource="<strong class="portfolio-parent-items">Technology</strong>"/ &gt
+                &lt owl:someValuesFrom rdf:resource=<br>"<strong class="motivation">Access to important information can make the world a better place!</strong>"/ &gt
             &lt /owl:Restriction &gt
             &lt owl:Restriction &gt
                 &lt owl:onProperty rdf:resource="<strong class="relationships">has-skills</strong>"/ &gt

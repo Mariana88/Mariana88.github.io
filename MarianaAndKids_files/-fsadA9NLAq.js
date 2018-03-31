@@ -1,0 +1,3 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["LSdda"]); }
+
+__d("AdsImageSpecsForAdgroupUtils",["AdImageSpecsUtils","AdImageSpecsUtilsV2","AdsAPIAdgroupPaths","AdsBrandAwarenessUtils","AdsPlacementAPISpecReaderUtils","adsGetCreativeTypeByCreativeFields"],(function a(b,c,d,e,f,g){"use strict";var h={getImageSpecsForAdgroup:function i(j,k,l){var m=c("adsGetCreativeTypeByCreativeFields")(j.getIn(c("AdsAPIAdgroupPaths").CREATIVE.OBJECT_TYPE)),n=c("AdsPlacementAPISpecReaderUtils").convertCampaignRecordToPlacementSpec(k),o=c("AdImageSpecsUtilsV2").getCropImageSpecsForAdTypeV2(m,[n],l),p=c("AdImageSpecsUtils").getDisabledCropImageSpecsForAdType(o,m,c("AdsBrandAwarenessUtils").isWebsiteLinkEnabled(j.toJS()));return{imageSpecs:o,disabledSpecs:p}}};f.exports=h}),null);
