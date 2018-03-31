@@ -30,12 +30,9 @@ h1{
 .motivation{
     font-style: italic;
     font-size: x-large;
-    color: lavender
+    color: lavender;
 }
-.container {
-    display: inline-block;
-  }
-  .manImg {
+img {
     display: none;
   }
   .hover-text:hover img {
