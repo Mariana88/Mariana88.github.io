@@ -12,6 +12,7 @@ h1{
 .portfolio-items {
     color:dodgerblue;
     font-size: large;
+    font-weight: bold;
 }
 .portfolio-parent-items {
     color: dodgerblue;
@@ -21,6 +22,7 @@ h1{
 .anecdotal{
     font-size: medium;
     color: deepskyblue;
+    font-weight: bold
 }
 .relationships{
     font-size: medium;
