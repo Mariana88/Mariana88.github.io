@@ -11,24 +11,24 @@ h1{
 }
 .portfolio-items {
     color:dodgerblue;
-    font-size: large;
+    font-size: x-large;
 }
 .portfolio-parent-items {
     color: dodgerblue;
     font-weight: bold;
-    font-size: x-large
+    font-size: xx-large
 }
 .anecdotal{
     font-size: medium;
     color: deepskyblue;
 }
 .relationships{
-    font-size: small;
+    font-size: medium;
     font-style: italic;
     color: deeppink;
 }
 .motivation{
     font-style: italic;
-    font-size: medium;
+    font-size: x-large;
     color: lavender
 }
