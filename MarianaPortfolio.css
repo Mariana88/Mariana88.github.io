@@ -32,3 +32,12 @@ h1{
     font-size: x-large;
     color: lavender
 }
+.container {
+    display: inline-block;
+  }
+  .manImg {
+    display: none;
+  }
+  .hover-text:hover ~ .manImg {
+    display: block;  
+  }
