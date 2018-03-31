@@ -34,7 +34,7 @@
             &lt /owl:Restriction &gt
             &lt owl:Restriction &gt
             &lt owl:onProperty rdf:resource="<strong class="relationships">has-skills</strong>"/ &gt
-            &lt owl:someValuesFrom rdf:resource="<strong class="portfolio-parent-items">Technology</strong>"/ &gt
+            &lt owl:someValuesFrom rdf:resource="<a class="portfolio-parent-items" href="#Technology">Technology</a>"/ &gt
         &lt /owl:Restriction &gt
             &lt owl:Restriction &gt
             &lt owl:onProperty rdf:resource="<strong class="relationships">author-of</strong>"/ &gt
@@ -50,7 +50,7 @@
             &lt /owl:Restriction &gt
             &lt owl:Restriction &gt
                 &lt owl:onProperty rdf:resource="<strong class="relationships">has-belief</strong>"/ &gt
-                &lt owl:someValuesFrom rdf:resource=<br>"<strong class="motivation">Semantic Technology can improve access to Information in a revolutionary way.</strong>"/ &gt
+                &lt owl:someValuesFrom rdf:resource=<br>"<strong class="motivation">Semantic Technology can improve access to information in a revolutionary way.</strong>"/ &gt<br>
             &lt /owl:Restriction &gt
             &lt owl:Restriction &gt
                 &lt owl:onProperty rdf:resource="<strong class="relationships">has-belief</strong>"/ &gt
@@ -110,10 +110,35 @@
             &lt owl:Class rdf:about="<h1> Projects </h1>" &gt
             &lt rdf:type rdf:resource="#Projects"/ &gt
                 /t &lt rdf:Description rdf:about="# <strong class="portfolio-parent-items" > Telepathometer" </strong> &gt
-                /t &lt !-- <strong class="motivation" > An application which allows people to identify and measure events of <a href="https://en.wikipedia.org/wiki/Telepathy" >Telepathy</a> with each other </strong> -- &gt
+                /t &lt !-- <strong class="motivation" > An application which allows people to identify and measure events of <a class="motivation" href="https://en.wikipedia.org/wiki/Telepathy" >Telepathy</a> with each other </strong> -- &gt
                 /t & ltMariana Casella dos Santos Portfolio:has-code &gt <a class="portfolio-items" href="https://github.com/MarianaCasellaDosSantos/Telepathometer"> Telepathometer Code </a> &lt /Mariana Casella dos Santos Portfolio:has-code &gt <br>
                 /t &lt Mariana Casella dos Santos Portfolio:has-code &gt Telepathometer Demo &lt /Mariana Casella dos Santos Portfolio:has-code &gt <br>
             &lt /rdf:Description &gt
+            </div>
+
+            <br><br><br><br><br>
+            <div id="Technology">
+            &lt owl:Class rdf:about="<h1> Technology </h1>" &gt
+            &lt owl:Restriction &gt
+                &lt owl:onProperty rdf:resource="# <strong class="relationship">has-part</strong>"/ &gt
+                &lt owl:allValuesFrom &gt
+                    &lt owl:Class &gt
+                        &lt owl:unionOf rdf:parseType="Collection" &gt
+                            &lt rdf:Description rdf:about=" <strong class="portfolio-items"> Knowledge Representation </strong>"/ &gt
+                            &lt rdf:Description rdf:about=" <strong class="portfolio-items"> Formal Ontology </strong>"/ &gt
+                            &lt rdf:Description rdf:about=" <strong class="portfolio-items"> OWL/RDF </strong>"/ &gt
+                            &lt rdf:Description rdf:about=" <strong class="portfolio-items"> SPARQL </strong>"/ &gt
+                            &lt rdf:Description rdf:about=" <strong class="portfolio-items"> Protege </strong>"/ &gt
+                            &lt rdf:Description rdf:about=" <strong class="portfolio-items"> Healthcare Informatics </strong>"/ &gt
+                            &lt rdf:Description rdf:about=" <strong class="portfolio-items"> Natural Language Understanding </strong>"/ &gt
+                            &lt rdf:Description rdf:about=" <strong class="portfolio-items"> Linked Data Architecture and Techniques </strong>"/ &gt
+                            &lt rdf:Description rdf:about=" <strong class="portfolio-items"> Social Media Engagement </strong>"/ &gt
+                            &lt rdf:Description rdf:about=" <strong class="portfolio-items"> Project Management and Agile </strong>"/ &gt
+                            &lt rdf:Description rdf:about=" <strong class="portfolio-items"> Multidimensional Teams Leadership </strong>"/ &gt
+                        &lt /owl:unionOf>
+                    &lt /owl:Class>
+                &lt /owl:allValuesFrom>
+            &lt /owl:Restriction>
             </div>
         </p>
     </body>
