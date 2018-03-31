@@ -1,0 +1,32 @@
+body {
+    font-size: xx-small;
+    font-family: monospace;
+}
+h1{
+    font-size: xx-large;
+    color: dodgerblue;
+    font-weight: bold;
+}
+.portfolio-items {
+    color:dodgerblue;
+    font-size: large;
+}
+.portfolio-parent-items {
+    color: dodgerblue;
+    font-weight: bold;
+    font-size: x-large
+}
+.anecdotal{
+    font-size: medium;
+    color: deepskyblue;
+}
+.relationships{
+    font-size: small;
+    font-style: italic;
+    color: deeppink;
+}
+.motivation{
+    font-style: italic;
+    font-size: medium;
+    color: lavender
+}
