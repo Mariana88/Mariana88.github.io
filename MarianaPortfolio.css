@@ -6,22 +6,22 @@ body {
     font-weight: 100;
 }
 h1{
-    font-size: xx-large;
+    font-size: 6em;
     color: dodgerblue;
     font-weight: bold;
 }
 .portfolio-items {
-    color:dodgerblue;
-    font-size: large;
+    color: darkcyan;
+    font-size: 3em;
     font-weight: bold;
 }
 .portfolio-parent-items {
     color: dodgerblue;
     font-weight: bold;
-    font-size: xx-large
+    font-size: 4em
 }
 .anecdotal{
-    font-size: medium;
+    font-size: large;
     color: deepskyblue;
     font-weight: bold
 }
@@ -32,7 +32,7 @@ h1{
 }
 .motivation{
     font-style: italic;
-    font-size: x-large;
+    font-size: 3em;
     color: lavender;
 }
 img {
