@@ -24,7 +24,8 @@ h1{
 .portfolio-parent-items {
     color: dodgerblue;
     font-weight: bold;
-    font-size: 4em
+    font-size: 4em;
+    background-color: floralwhite
 }
 .anecdotal{
     font-size: large;
