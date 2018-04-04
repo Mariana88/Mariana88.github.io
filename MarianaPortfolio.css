@@ -15,6 +15,12 @@ h1{
     font-size: 3em;
     font-weight: bold;
 }
+.portfolio-items-em {
+    color: darkcyan;
+    font-size: 4em;
+    font-weight: bold;
+    background-color: floralwhite;
+}
 .portfolio-parent-items {
     color: dodgerblue;
     font-weight: bold;
